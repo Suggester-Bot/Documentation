@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title>Redirect</title>
+		<meta charset="utf-8" />
+	</head>
+  <body>This is a temporary redirect until suggester.js.org redirects to the correct documentation repository. You should be momentarily redirected to the <a href="https://suggester.github.io/Documentation">correct site</a></body>
+  <script>
+    if (window.location.hash) window.location.href = `https://suggester.github.io/Documentation/${window.location.hash}`;
+    else if (window.location.pathname) window.location.href = `https://suggester.github.io/Documentation${window.location.hash}`;
+  </script>
+		</html>
